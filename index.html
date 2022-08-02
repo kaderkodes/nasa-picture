@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>NASA - Picture of the Day</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>NASA - PICTURE OF THE DAY</h1>
+	<input type="date" name="" value="">
+	<button type="button" name="button">Get Media</button>
+
+	<!-- INTRO SECTION -->
+	<section class="intro">
+		<span class="underline">HOW TO USE THE APP</span>
+		<p>
+			Select a date and click "Get Media" </br>
+			If an invalid input is selected the app will return "undefined" </br>
+			The API can return an image, or a video (Check out February 16th 2022)
+		</p>
+		<p>
+			This app uses the <a href="https://api.nasa.gov/" target="_blank">NASA API</a> to return an image or
+			video corresponding to the date selected.
+		</p>
+	</section>
+
+	<img class="hidden" src="" alt="">
+	<!-- On page load, hide everything including h3,h4,iframe -->
+	<!-- Create an About Title to give the user a few instructions, make sure this about disappears whenever the user starts to use the website -->
+	<h2></h2>
+	<iframe class="hidden" src="" frameborder="0"></iframe>
+	<h4></h4>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

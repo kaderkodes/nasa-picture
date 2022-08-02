@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 3%;
+}
+
+body{
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.intro{
+  padding: 5%;
+}
+
+.underline{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+h4{
+  font-weight: 400;
+  padding: 0 10%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
